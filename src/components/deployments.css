@@ -21,22 +21,31 @@ border-radius: 4px;
 
 
 }
-.card .title{
-    font-family: Montserrat;
+.add-dep{
+    display: flex;
+flex-direction: row;
+align-items: center;
+height: 40px;
+padding: 8px 24px;
+background: #1ABC9C;
+border-radius: 4px;
+font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size: 14px;
+font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 171% */
+/* identical to box height, or 150% */
 
-display: flex;
-align-items: center;
-letter-spacing: 0.01em;
+text-align: center;
+letter-spacing: 0.03em;
+margin-right: 14px;
 
-/* Gray/20 */
+/* White */
 
-color: #B1B9D1;
+color: #FFFFFF;
+border: none;
 }
+
 .card h1{
     font-family: Montserrat;
 font-style: normal;
@@ -58,7 +67,7 @@ color: #FFFFFF;
     max-width: 1366px !important;
 }}
 
-.card h5{
+.card-body .title{
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -72,7 +81,7 @@ color: #FFFFFF;
     
     /* Gray/30 */
     
-    color: #8A91B1; 
+    color: #B1B9D1; 
 }
 h1 sup{
     font-family: Montserrat;
@@ -89,4 +98,97 @@ letter-spacing: 0.01em;
 /* red */
 
 color: #F24C42;
+}
+.card-body h5{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Gray/30 */
+
+color: #8A91B1;
+}
+
+.donutchart{
+    font-size: 9px;
+    
+}
+.chart-label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.01em;
+    margin-left: 8px;
+    
+    /* White */
+    
+    
+}
+.label-box{
+   display: flex;
+   height: 24px;
+   align-items: baseline;
+   color: #FFFFFF;
+   
+}
+.label-point-passing{
+    
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #1ABC9C;
+    margin-right: 8px;
+
+}
+.label-point-atrisk{
+    
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #FFB806;
+    margin-right: 8px;
+}
+.label-point-failing{
+    
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #F24C42;
+    margin-right: 8px;
+}
+.label-box h5{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Gray/20 */
+
+color: #B1B9D1;
+}
+
+@media (min-width: 768px){
+    .chart-label{
+        font-size: 8px;
+    }
 }
