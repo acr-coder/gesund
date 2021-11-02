@@ -1,0 +1,23 @@
+.navbar{
+    background: #0E1124 !important;
+    min-height: 92px;
+}
+
+.nav-item a{
+    font-family: Montserrat !important;
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 15px !important;
+line-height: 24px !important;
+/* identical to box height, or 160% */
+
+display: flex !important;
+align-items: center !important;
+text-align: center !important;
+letter-spacing: 0.02em !important;
+
+/* Gray/20 */
+
+color: #B1B9D1!important;
+margin-left: 10px !important;
+}

@@ -1,0 +1,92 @@
+.container{background-color: #272B3F !important; height: 100vh !important; padding: 20px !important; }
+.row{width: 100% !important; }
+h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+margin-top: 10px;
+display: flex;
+align-items: center;
+
+/* White */
+
+color: #FFFFFF;
+}
+.card{
+    background: #343E56;
+border-radius: 4px;
+
+
+}
+.card .title{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Gray/20 */
+
+color: #B1B9D1;
+}
+.card h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* White */
+
+color: #FFFFFF;
+}
+@media (min-width: 1200px)
+{.container  {
+    max-width: 1366px !important;
+}}
+
+.card h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    
+    /* Gray/30 */
+    
+    color: #8A91B1; 
+}
+h1 sup{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* red */
+
+color: #F24C42;
+}
