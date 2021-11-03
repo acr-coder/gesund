@@ -99,6 +99,22 @@ letter-spacing: 0.01em;
 
 color: #F24C42;
 }
+.sub{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Gray/30 */
+
+color: #8A91B1;
+}
 .card-body h5{
     font-family: Montserrat;
 font-style: normal;
@@ -191,4 +207,140 @@ color: #B1B9D1;
     .chart-label{
         font-size: 8px;
     }
+}
+
+th{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+background-color:#171A2B;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Gray/20 */
+
+color: #B1B9D1;
+}
+.dep{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+align-items: center;
+letter-spacing: 0.005em;
+
+/* White */
+
+color: #FFFFFF;
+}
+
+.dep span{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+
+
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Gray/20 */
+
+color: #B1B9D1;
+}
+tbody{
+    background: #343E56;
+}
+
+tbody tr{
+    border-bottom: 1px solid #171A2B;
+}
+.good{
+    position: relative;
+}
+.good img{
+    position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 39.58%;
+bottom: 35.42%;
+
+}
+.dep p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+/* White */
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 4px;
+}
+
+.sub{
+    font-family: Montserrat;
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 16px !important;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em !important;
+
+/* Gray/20 */
+
+color: #B1B9D1 !important;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.avg{
+    position: relative;
+
+
+}
+.avg p{
+    position: absolute;
+    left: 31.25%;
+right: 31.25%;
+top: 39.58%;
+bottom: 35.42%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
 }
