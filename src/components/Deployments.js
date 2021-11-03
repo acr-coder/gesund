@@ -5,6 +5,7 @@ import good from '../assets/good.svg'
 import risk from '../assets/risk.svg'
 import question from '../assets/question.svg'
 import up from '../assets/up.svg'
+import rect99 from '../assets/R99.svg'
 
 export const Deployments = () => {
   const [serviceHealthSummary, setServiceHealthSummary] = useState({
@@ -32,12 +33,14 @@ export const Deployments = () => {
       </div>
 
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-3 ">
-        <div className="col">
+      <div className="col">
           <div className="card shadow-sm">
-            <div className="card-body">
+            <div className="card-body"  style={{ marginBottom: "8px" }}>
               <h5 className="title">Active Deployments</h5>
-              <h1>72</h1>
-              <h5>0 inactive</h5>
+              <h1>
+                72
+              </h1>
+              <h5 className="sub" >0 inactive</h5>
             </div>
           </div>
         </div>
@@ -54,7 +57,7 @@ export const Deployments = () => {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <div className="card-body" style={{ marginBottom: "8px" }}>
+            <div className="card-body" >
               <h5 className="title">Service Health Summary</h5>
               <div style={{ display: "flex" }}>
                 <DonutChart
@@ -106,7 +109,7 @@ export const Deployments = () => {
 
         <div className="col">
           <div className="card shadow-sm">
-            <div className="card-body" style={{ marginBottom: "8px" }}>
+            <div className="card-body" >
               <h5 className="title">Data Drift Summary</h5>
               <div style={{ display: "flex" }}>
                 <DonutChart
@@ -157,7 +160,7 @@ export const Deployments = () => {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <div className="card-body" style={{ marginBottom: "8px" }}>
+            <div className="card-body">
               <h5 className="title">Accuracy Summary</h5>
               <div style={{ display: "flex" }}>
                 <DonutChart
@@ -210,7 +213,7 @@ export const Deployments = () => {
       <table class="table table-borderless mt-5">
   <thead>
     <tr>
-    <th scope="col" >Deployment</th>
+    <th scope="col" >Deployment Name</th>
               <th scope="col" >Service</th>
               <th scope="col" >Drift</th>
               <th scope="col" >Accurancy</th>
@@ -226,7 +229,19 @@ export const Deployments = () => {
       <td className="dep good" > <img src={good} alt="good" /> </td>
       <td className="dep good" > <img src={risk} alt="risk" /> </td>
       <td className="dep good" > <img src={question} alt="question" /> </td>
-      <td className="dep" >  </td>
+      <td className="dep ac" >
+        <div className="activity">
+          <div className="first"></div>
+          <div className="second"></div>
+          <div className="third"></div>
+          <div className="fourth"></div>
+          <div className="fifth"></div>
+          <div className="sixth"></div>
+          <div className="seventh"></div>
+          <div className="eighth"></div>
+          
+        </div>
+      </td>
       <td className="dep avg" > <p>54K</p></td>
       <td className="dep" >
         <p>31 new <img src={up} alt="up" /></p>
@@ -236,17 +251,81 @@ export const Deployments = () => {
     </tr>
     <tr>
       
-    <td className="dep">ss2019retrain r_dam mono <br /> <span>DataRobot Prediction Server | ss_r_dam_train_20200 ...</span> </td>
-    <td className="dep good" > <img src={good} alt="good" /> </td>
-    <td className="dep good" > <img src={good} alt="good" /> </td>
-    <td className="dep good" > <img src={good} alt="good" /> </td>
-    
+      <td className="dep">ss2019retrain r_dam mono <br /> <span>DataRobot Prediction Server | ss_r_dam_train_20200 ...</span> </td>
+      <td className="dep good" > <img src={good} alt="good" /> </td>
+      <td className="dep good" > <img src={good} alt="risk" /> </td>
+      <td className="dep good" > <img src={good} alt="question" /> </td>
+      <td className="dep ac" >
+        <div className="activity">
+          <div className="first"></div>
+          <div className="second"></div>
+          <div className="third"></div>
+          <div className="fourth"></div>
+          <div className="fifth"></div>
+          <div className="sixth"></div>
+          <div className="seventh"></div>
+          <div className="eighth"></div>
+          
+        </div>
+      </td>
+      <td className="dep avg" > <p>54K</p></td>
+      <td className="dep" >
+        <p>31 new <img src={up} alt="up" /></p>
+        <p className="sub">a few seconds ago</p>
+      </td>
+      
     </tr>
     <tr>
       
-    <td className="dep">ss2019retrain r_dam mono <br /> <span>DataRobot Prediction Server | ss_r_dam_train_20200 ...</span> </td>
-      <td className="dep">Otto</td>
-      <td className="dep">@mdo</td>
+      <td className="dep">ss2019retrain r_dam mono <br /> <span>DataRobot Prediction Server | ss_r_dam_train_20200 ...</span> </td>
+      <td className="dep good" > <img src={good} alt="good" /> </td>
+      <td className="dep good" > <img src={good} alt="risk" /> </td>
+      <td className="dep good" > <img src={good} alt="question" /> </td>
+      <td className="dep ac" >
+        <div className="activity">
+          <div className="first"></div>
+          <div className="second"></div>
+          <div className="third"></div>
+          <div className="fourth"></div>
+          <div className="fifth"></div>
+          <div className="sixth"></div>
+          <div className="seventh"></div>
+          <div className="eighth"></div>
+          
+        </div>
+      </td>
+      <td className="dep avg" > <p>54K</p></td>
+      <td className="dep" >
+        <p>31 new <img src={up} alt="up" /></p>
+        <p className="sub">a few seconds ago</p>
+      </td>
+      
+    </tr>
+    <tr>
+      
+      <td className="dep">ss2019retrain r_dam mono <br /> <span>DataRobot Prediction Server | ss_r_dam_train_20200 ...</span> </td>
+      <td className="dep good" > <img src={good} alt="good" /> </td>
+      <td className="dep good" > <img src={good} alt="risk" /> </td>
+      <td className="dep good" > <img src={good} alt="question" /> </td>
+      <td className="dep ac" >
+        <div className="activity">
+          <div className="first"></div>
+          <div className="second"></div>
+          <div className="third"></div>
+          <div className="fourth"></div>
+          <div className="fifth"></div>
+          <div className="sixth"></div>
+          <div className="seventh"></div>
+          <div className="eighth"></div>
+          
+        </div>
+      </td>
+      <td className="dep avg" > <p>54K</p></td>
+      <td className="dep" >
+        <p>31 new <img src={up} alt="up" /></p>
+        <p className="sub">a few seconds ago</p>
+      </td>
+      
     </tr>
   </tbody>
 </table>

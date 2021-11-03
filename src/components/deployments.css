@@ -224,6 +224,7 @@ letter-spacing: 0.01em;
 /* Gray/20 */
 
 color: #B1B9D1;
+
 }
 .dep{
     font-family: Montserrat;
@@ -343,4 +344,110 @@ font-weight: normal;
 font-size: 16px;
 line-height: 24px;
 
+}
+.ac{
+    position: relative;
+}
+.activity{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items:baseline;
+    justify-content: space-between;
+    
+
+top: 39.58%;
+bottom: 35.42%;
+    
+    
+    
+    
+    
+}
+.first{
+    
+width: 12px;
+height: 17px;
+
+
+    background: linear-gradient(180deg, #1ABC9C 0%, #71EABB 105.71%);
+border-radius: 3px; 
+margin-right: 4px;
+}
+.second{
+   
+    width: 12px;
+    height: 21px;
+    
+    
+    
+    background: linear-gradient(180deg, #1ABC9C 0%, #71EABB 105.71%);
+    border-radius: 3px;  
+    margin-right: 4px;
+}
+.third{
+    
+width: 12px;
+height: 14px;
+
+
+
+background: linear-gradient(180deg, #1ABC9C 0%, #71EABB 105.71%);
+border-radius: 3px;
+margin-right: 4px;
+}
+.fourth{
+    
+    width: 12px;
+    height: 20px;
+    
+    
+    
+    background: linear-gradient(180deg, #1ABC9C 0%, #71EABB 105.71%);
+    border-radius: 3px; 
+    margin-right: 4px;
+}
+.fifth{
+    
+width: 12px;
+height: 17px;
+
+
+
+background: linear-gradient(180deg, #1ABC9C 0%, #71EABB 105.71%);
+border-radius: 3px;
+margin-right: 4px;
+}
+.sixth{
+    
+width: 12px;
+height: 14px;
+
+
+
+background: linear-gradient(180deg, #1ABC9C 0%, #71EABB 105.71%);
+border-radius: 3px;
+margin-right: 4px;
+}
+.seventh{
+    
+    width: 12px;
+    height: 12px;
+    
+    
+    
+    background: linear-gradient(180deg, #1ABC9C 0%, #71EABB 105.71%);
+    border-radius: 3px;
+    margin-right: 4px;
+}
+.eighth{
+    
+width: 12px;
+height: 12px;
+
+
+
+background: linear-gradient(180deg, #1ABC9C 0%, #71EABB 105.71%);
+border-radius: 3px;
+margin-right: 4px;
 }
