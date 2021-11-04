@@ -5,7 +5,8 @@ import good from '../assets/good.svg'
 import risk from '../assets/risk.svg'
 import question from '../assets/question.svg'
 import up from '../assets/up.svg'
-import rect99 from '../assets/R99.svg'
+import dots from '../assets/dots.svg'
+import fail from '../assets/fail.svg'
 
 export const Deployments = () => {
   const [serviceHealthSummary, setServiceHealthSummary] = useState({
@@ -243,9 +244,12 @@ export const Deployments = () => {
         </div>
       </td>
       <td className="dep avg" > <p>54K</p></td>
-      <td className="dep" >
+      <td className="dep" style={{display:'flex', justifyContent:'space-between'}} >
+        <div>
         <p>31 new <img src={up} alt="up" /></p>
         <p className="sub">a few seconds ago</p>
+        </div>
+        <img src={dots} alt="dots" />
       </td>
       
     </tr>
@@ -269,9 +273,12 @@ export const Deployments = () => {
         </div>
       </td>
       <td className="dep avg" > <p>54K</p></td>
-      <td className="dep" >
+      <td className="dep" style={{display:'flex', justifyContent:'space-between'}} >
+        <div>
         <p>31 new <img src={up} alt="up" /></p>
         <p className="sub">a few seconds ago</p>
+        </div>
+        <img src={dots} alt="dots" />
       </td>
       
     </tr>
@@ -295,9 +302,12 @@ export const Deployments = () => {
         </div>
       </td>
       <td className="dep avg" > <p>54K</p></td>
-      <td className="dep" >
+      <td className="dep" style={{display:'flex', justifyContent:'space-between'}} >
+        <div>
         <p>31 new <img src={up} alt="up" /></p>
         <p className="sub">a few seconds ago</p>
+        </div>
+        <img src={dots} alt="dots" />
       </td>
       
     </tr>
@@ -321,9 +331,41 @@ export const Deployments = () => {
         </div>
       </td>
       <td className="dep avg" > <p>54K</p></td>
-      <td className="dep" >
+      <td className="dep" style={{display:'flex', justifyContent:'space-between'}} >
+        <div>
         <p>31 new <img src={up} alt="up" /></p>
         <p className="sub">a few seconds ago</p>
+        </div>
+        <img src={dots} alt="dots" />
+      </td>
+      
+    </tr>
+    <tr>
+      
+      <td className="dep">ss2019retrain r_dam mono <br /> <span>DataRobot Prediction Server | ss_r_dam_train_20200 ...</span> </td>
+      <td className="dep good" > <img src={fail} alt="fail" /> </td>
+      <td className="dep good" > <img src={risk} alt="risk" /> </td>
+      <td className="dep good" > <img src={good} alt="question" /> </td>
+      <td className="dep ac" >
+        <div className="activity">
+          <div className="first"></div>
+          <div className="second"></div>
+          <div className="third"></div>
+          <div className="fourth"></div>
+          <div className="fifth"></div>
+          <div className="sixth"></div>
+          <div className="seventh"></div>
+          <div className="eighth"></div>
+          
+        </div>
+      </td>
+      <td className="dep avg" > <p>54K</p></td>
+      <td className="dep" style={{display:'flex', justifyContent:'space-between'}} >
+        <div>
+        <p>31 new <img src={up} alt="up" /></p>
+        <p className="sub">a few seconds ago</p>
+        </div>
+        <img src={dots} alt="dots" />
       </td>
       
     </tr>
